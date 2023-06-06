@@ -1,58 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Mi Primer Website</title>
+    <title>Mi Primer Pagina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div class="container-nav">
             <nav class="navbar" role="navigation">
-            <a href="index.html" class="brand">Mi página web</a>
-            <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="about.html">Nosotros</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="contacto.html">contacto</a></li>
-            </ul>
+                <a href="index.html" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="servicios.html">Services</a></li>
+                    <li><a href="contacto.html">Contact</a></li>
+                </ul>
             </nav>
             <button class="button-menu-toggle">Menu</button>
-            </div>
-            
+        </div>
     </header>
     <main>
+
         <div class="container">
-            <div class="container">
-                <h1>Bienvenidos a mi primer Website</h1>
+            <h1>Mi PRIMER PAGINA WEB!! </h1>
+            <div class="row">
+                <div class="column">
+                    <section>
+                        <H2>¿Quien soy?</H2>
+                        <p>Mi nombre es <strong>Lourdes N. Muzio </strong> y es mi primer pagina web</p><br>
+                    </section>
+
+                </div>
+
+            </div>
+            <div class="column">
                 <section>
-                    <h2>Presentación</h2>
-                    <p>Soy Lourdes N. Muzio , ¡y esta es mi primera página web!</p>
-                    <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente
-                        atrapantes y funcionales.</p>
+                    <h2>¿Que es lo que hago?</h2>
+                    <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+                    <br>
+                    <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.
+                        Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p> <br>
                 </section>
-                <section>
-                    <h2>Se vienen cositas...</h2>
-                    <p>
-                        A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos
-                        lenguajes me ayudarán a crear una base sólida en el desarrollo web frontend.
-                    </p>
-                </section>
+
             </div>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
         </div>
+
     </main>
     <footer>
-        <button onClick="showAlert()" aria-label="Dispara una alerta de saludo">
-            ¡Hazclic en mí!
-        </button>
+        <button onclick="showAlert()" aria-label="Dispara una alerta de saludo">haz click aqui!</button>
     </footer>
     <script src="script.js"></script>
 </body>
